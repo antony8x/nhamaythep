@@ -76,7 +76,7 @@ CONFIG.status_types = {
   'shelved': {'id': 4, 'text': 'Shelved', 'color': styles.status5 },
   'retired': {'id': 5, 'text': 'Retired', 'color': styles.status6 },
   'cancelled': {'id': 6, 'text': 'Cancelled', 'color': styles.status7 },
-  'operating': {'id': 7, 'text': 'Operating', 'color': styles.status8 },
+  'operating': {'id': 7, 'text': 'Đang hoạt động', 'color': styles.status8 },
   'mothballed': {'id': 8, 'text': 'Mothballed', 'color': styles.status9 },
 };
 
