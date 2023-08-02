@@ -35,7 +35,7 @@ CONFIG.outerring = [[-90,-360],[-90,360],[90,360],[90,-360],[-90,-360]];
 
 // minzoom and maxzoom for the map
 CONFIG.minzoom = 2;
-CONFIG.maxzoom = 17;
+CONFIG.maxzoom = 30;
 
 // Style definitions (see also scss exports, which are imported here as styles{})
 // a light grey mask covering the entire globe
