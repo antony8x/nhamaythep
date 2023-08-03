@@ -799,7 +799,7 @@
           table: !0,
         },
         province: {
-          name: "Subnational unit",
+          name: "Địa phương",
           format: "string",
           classname: "province",
           tooltip: "province, state, administrative division, etc.",
@@ -949,7 +949,7 @@
       (g.status_types = {
         announced: { text: "Announced" },
         construction: { text: "Construction" },
-        operating: { text: "Operating" },
+        operating: { text: "Đang vận hành" },
         mothballed: { text: "Mothballed" },
         retired: { text: "Retired" },
         cancelled: { text: "Cancelled" },
