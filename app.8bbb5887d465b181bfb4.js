@@ -947,12 +947,12 @@
         },
       }),
       (g.status_types = {
-        announced: { text: "Announced" },
-        construction: { text: "Construction" },
+        announced: { text: "Đã được công bố" },
+        construction: { text: "Đang sửa chữa" },
         operating: { text: "Đang vận hành" },
-        mothballed: { text: "Mothballed" },
-        retired: { text: "Retired" },
-        cancelled: { text: "Cancelled" },
+        mothballed: { text: "Đã ngừng sản xuất" },
+        retired: { text: "Đình chỉ hoạt động" },
+        cancelled: { text: "Đã dừng" },
       }),
       (g.markercluster_colors = Object.keys(g.process_types).map(function (e) {
         return g.process_types[e].color;
@@ -1281,13 +1281,13 @@
                     label: "plant view",
                     key: "plantview",
                     layer: g.cluster_layer,
-                    tooltip: "Select capacity view",
+                    tooltip: "Select plant view",
                   },
                   {
                     label: "steelmaking capacity view",
                     key: "capacityview",
                     layer: g.circle_layer,
-                    tooltip: "Select plant view",
+                    tooltip: "Select capacity view",
                   },
                 ];
                 (g.mapswitcher = new L.Control.MapSwitcher({
