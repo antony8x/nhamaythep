@@ -1412,7 +1412,7 @@
                         ? (o = "Filtered by process and status")
                         : e == t && n != r
                         ? (o = "Filtered by process")
-                        : e != t && n == r && (o = "Filtered by status"),
+                        : e != t && n == r && (o = "Đã lọc theo trạng thái"),
                       o
                     );
                   })();
