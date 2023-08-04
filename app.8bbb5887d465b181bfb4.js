@@ -857,7 +857,7 @@
           return e;
         },
         number: function (e) {
-          return parseFloat(e).toLocaleString("en-US", {
+          return parseFloat(e).toLocaleString("vi-VN", {
             minimumFractionDigits: 0,
             maximumFractionDigits: 0,
           });
